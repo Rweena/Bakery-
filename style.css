@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    color: #333;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: #d35400 !important;
+  }
+  .nav-link {
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .nav-link:hover {
+    color: #d35400 !important;
+  }
+  
+/* Home Section */
+.home {
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 228, 196, 0.6),  /* soft bakery cream overlay */
+        rgba(250, 214, 165, 0.6)   /* warm pastel tone */
+      ),
+      url('https://images.unsplash.com/photo-1608198093002-ad4e0054842d') center/cover no-repeat;
+    color: #5a3e2b; /* chocolate brown text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home h1 {
+    font-family: 'Georgia', serif;
+    color: #4b2e2a; /* deep bakery brown */
+    text-shadow: 2px 2px 6px rgba(255, 245, 230, 0.9);
+  }
+  
+  .home p {
+    color: #3d2c29;
+    font-size: 1.25rem;
+  }
+  
+  .home .btn-light {
+    background-color: #e7c094;
+    border: none;
+    color: #5a3e2b;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .home .btn-light:hover {
+    background-color: #c8ac8f;
+    color: #3a241d;
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(90, 62, 43, 0.25);
+  }
+  
+  .home .btn-outline-light {
+    border-color: #f8e5d0;
+    color: #f8e5d0;
+  }
+  
+  .home .btn-outline-light:hover {
+    background-color: #f8e5d0;
+    color: #5a3e2b;
+  }
+  
+  
+  #categories img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  #categories img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  }
+  
+  #stats h2 {
+    color: #d35400;
+  }
+  
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  }
+  
+  #gallery img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  #gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  }
+
+  .contact-section h3 {
+    color: #f8c291;
+  }
+  .contact-section a:hover {
+    text-decoration: underline;
+  }
+  
